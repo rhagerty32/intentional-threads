@@ -43,11 +43,30 @@
         "Made in Portugal"
       ],
       "colors": [
-        { "name": "Bone", "hex": "#EDE6DA" },
-        { "name": "Oat", "hex": "#D9CBB4" },
-        { "name": "Espresso", "hex": "#3A2E27" }
+        {
+          "name": "Bone",
+          "hex": "#EDE6DA",
+          "image": "variants/on-purpose-crewneck-bone.jpg"
+        },
+        {
+          "name": "Oat",
+          "hex": "#D9CBB4",
+          "image": "variants/on-purpose-crewneck-oat.jpg"
+        },
+        {
+          "name": "Espresso",
+          "hex": "#3A2E27",
+          "image": "variants/on-purpose-crewneck-espresso.jpg"
+        }
       ],
-      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "images": [
         {
           "file": "on-purpose-crewneck.jpg",
@@ -76,11 +95,30 @@
         "Made in Portugal"
       ],
       "colors": [
-        { "name": "Oat", "hex": "#D9CBB4" },
-        { "name": "Espresso", "hex": "#3A2E27" },
-        { "name": "Stone Grey", "hex": "#A8A197" }
+        {
+          "name": "Oat",
+          "hex": "#D9CBB4",
+          "image": "variants/intentional-hoodie-oat.jpg"
+        },
+        {
+          "name": "Espresso",
+          "hex": "#3A2E27",
+          "image": "variants/intentional-hoodie-espresso.jpg"
+        },
+        {
+          "name": "Stone Grey",
+          "hex": "#A8A197",
+          "image": "variants/intentional-hoodie-stone-grey.jpg"
+        }
       ],
-      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "images": [
         {
           "file": "intentional-hoodie.jpg",
@@ -107,10 +145,25 @@
         "Made in Portugal"
       ],
       "colors": [
-        { "name": "Espresso", "hex": "#3A2E27" },
-        { "name": "Bone", "hex": "#EDE6DA" }
+        {
+          "name": "Espresso",
+          "hex": "#3A2E27",
+          "image": "variants/monogram-crewneck-espresso.jpg"
+        },
+        {
+          "name": "Bone",
+          "hex": "#EDE6DA",
+          "image": "variants/monogram-crewneck-bone.jpg"
+        }
       ],
-      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "images": [
         {
           "file": "monogram-crewneck.jpg",
@@ -133,10 +186,25 @@
         "Made in Portugal"
       ],
       "colors": [
-        { "name": "Bone", "hex": "#EDE6DA" },
-        { "name": "Espresso", "hex": "#3A2E27" }
+        {
+          "name": "Bone",
+          "hex": "#EDE6DA",
+          "image": "variants/daily-practice-tee-bone.jpg"
+        },
+        {
+          "name": "Espresso",
+          "hex": "#3A2E27",
+          "image": "variants/daily-practice-tee-espresso.jpg"
+        }
       ],
-      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "images": [
         {
           "file": "daily-practice-tee.jpg",
@@ -161,8 +229,21 @@
         "Limited run of 300",
         "Made in Portugal"
       ],
-      "colors": [{ "name": "Quiet Sage", "hex": "#8A9A84" }],
-      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Quiet Sage",
+          "hex": "#8A9A84",
+          "image": "variants/first-light-crewneck-quiet-sage.jpg"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "images": [
         {
           "file": "first-light-crewneck.jpg",
@@ -188,8 +269,21 @@
         "Relaxed fit, true to size",
         "Made in Portugal"
       ],
-      "colors": [{ "name": "Oat", "hex": "#D9CBB4" }],
-      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Oat",
+          "hex": "#D9CBB4",
+          "image": "variants/slow-morning-zip-hoodie-oat.jpg"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "images": [
         {
           "file": "slow-morning-zip-hoodie.jpg",
@@ -211,8 +305,21 @@
         "Garment-washed",
         "Made in Portugal"
       ],
-      "colors": [{ "name": "Cream", "hex": "#F1EADF" }],
-      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#F1EADF",
+          "image": "variants/decide-tee-cream.jpg"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "images": [
         {
           "file": "decide-tee.jpg",
@@ -236,10 +343,27 @@
         "Inside-band personalization is free, up to 20 characters"
       ],
       "variants": [
-        { "name": "Gold Vermeil", "hex": "#C9A96E" },
-        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+        {
+          "name": "Gold Vermeil",
+          "hex": "#C9A96E",
+          "image": "variants/north-star-signet-ring-gold-vermeil.jpg"
+        },
+        {
+          "name": "Sterling Silver",
+          "hex": "#C8C8C4",
+          "image": "variants/north-star-signet-ring-sterling-silver.jpg"
+        }
       ],
-      "sizes": ["4", "5", "6", "7", "8", "9", "10", "11"],
+      "sizes": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
       "images": [
         {
           "file": "north-star-signet-ring.jpg",
@@ -267,8 +391,16 @@
         "Lobster clasp"
       ],
       "variants": [
-        { "name": "Gold Vermeil", "hex": "#C9A96E" },
-        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+        {
+          "name": "Gold Vermeil",
+          "hex": "#C9A96E",
+          "image": "variants/compass-pendant-necklace-gold-vermeil.jpg"
+        },
+        {
+          "name": "Sterling Silver",
+          "hex": "#C8C8C4",
+          "image": "variants/compass-pendant-necklace-sterling-silver.jpg"
+        }
       ],
       "images": [
         {
@@ -295,8 +427,16 @@
         "Adjustable cable chain, 16 to 18 in"
       ],
       "variants": [
-        { "name": "Gold Vermeil", "hex": "#C9A96E" },
-        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+        {
+          "name": "Gold Vermeil",
+          "hex": "#C9A96E",
+          "image": "variants/on-purpose-bar-necklace-gold-vermeil.jpg"
+        },
+        {
+          "name": "Sterling Silver",
+          "hex": "#C8C8C4",
+          "image": "variants/on-purpose-bar-necklace-sterling-silver.jpg"
+        }
       ],
       "images": [
         {
@@ -319,10 +459,27 @@
         "US sizes 4 to 11"
       ],
       "variants": [
-        { "name": "Gold Vermeil", "hex": "#C9A96E" },
-        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+        {
+          "name": "Gold Vermeil",
+          "hex": "#C9A96E",
+          "image": "variants/thread-knot-ring-gold-vermeil.jpg"
+        },
+        {
+          "name": "Sterling Silver",
+          "hex": "#C8C8C4",
+          "image": "variants/thread-knot-ring-sterling-silver.jpg"
+        }
       ],
-      "sizes": ["4", "5", "6", "7", "8", "9", "10", "11"],
+      "sizes": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
       "images": [
         {
           "file": "thread-knot-ring.jpg",
@@ -344,8 +501,16 @@
         "Open design, fits most wrists from 6 to 7.5 in"
       ],
       "variants": [
-        { "name": "Gold Vermeil", "hex": "#C9A96E" },
-        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+        {
+          "name": "Gold Vermeil",
+          "hex": "#C9A96E",
+          "image": "variants/promise-cuff-gold-vermeil.jpg"
+        },
+        {
+          "name": "Sterling Silver",
+          "hex": "#C8C8C4",
+          "image": "variants/promise-cuff-sterling-silver.jpg"
+        }
       ],
       "images": [
         {
@@ -368,8 +533,16 @@
         "Adjustable 6 to 7.5 in, lobster clasp"
       ],
       "variants": [
-        { "name": "Gold Vermeil", "hex": "#C9A96E" },
-        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+        {
+          "name": "Gold Vermeil",
+          "hex": "#C9A96E",
+          "image": "variants/intention-chain-bracelet-gold-vermeil.jpg"
+        },
+        {
+          "name": "Sterling Silver",
+          "hex": "#C8C8C4",
+          "image": "variants/intention-chain-bracelet-sterling-silver.jpg"
+        }
       ],
       "images": [
         {
@@ -392,7 +565,13 @@
         "Hypoallergenic and nickel-free",
         "Sold as a pair"
       ],
-      "variants": [{ "name": "Gold Vermeil", "hex": "#C9A96E" }],
+      "variants": [
+        {
+          "name": "Gold Vermeil",
+          "hex": "#C9A96E",
+          "image": "variants/first-light-hoops-gold-vermeil.jpg"
+        }
+      ],
       "images": [
         {
           "file": "first-light-hoops.jpg",
@@ -414,7 +593,13 @@
         "Hypoallergenic and nickel-free",
         "Sold as a pair"
       ],
-      "variants": [{ "name": "Gold Vermeil", "hex": "#C9A96E" }],
+      "variants": [
+        {
+          "name": "Gold Vermeil",
+          "hex": "#C9A96E",
+          "image": "variants/threadline-studs-gold-vermeil.jpg"
+        }
+      ],
       "images": [
         {
           "file": "threadline-studs.jpg",

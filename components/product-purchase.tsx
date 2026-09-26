@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useBag } from "@/components/bag-context";
+import { useProductSelection } from "@/components/product-selection";
 import type { Swatch } from "@/lib/types";
 
 export function ProductPurchase({
@@ -11,15 +12,13 @@ export function ProductPurchase({
     slug: string;
     name: string;
     price: number;
-    image: string;
-    imageAlt: string;
     optionLabel: "Color" | "Metal";
     options: Swatch[];
     sizes: string[];
   };
 }) {
   const { addItem } = useBag();
-  const [color, setColor] = useState(product.options[0]?.name ?? "");
+  const { color, setColor, selected } = useProductSelection();
   const [size, setSize] = useState(product.sizes[0] ?? "");
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
@@ -37,8 +36,8 @@ export function ProductPurchase({
       slug: product.slug,
       name: product.name,
       price: product.price,
-      image: product.image,
-      imageAlt: product.imageAlt,
+      image: selected.image,
+      imageAlt: selected.imageAlt,
       color,
       size: product.sizes.length > 0 ? size : null,
       quantity,

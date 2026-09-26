@@ -3,6 +3,8 @@ export type Category = "apparel" | "jewelry";
 export type Swatch = {
   name: string;
   hex: string;
+  image: string;
+  imageAlt: string;
 };
 
 export type CatalogImage = {
@@ -65,8 +67,8 @@ export type CatalogFile = {
     note?: string;
     description: string;
     details: string[];
-    colors?: Swatch[];
-    variants?: Swatch[];
+    colors?: Array<{ name: string; hex: string; image?: string }>;
+    variants?: Array<{ name: string; hex: string; image?: string }>;
     sizes?: string[];
     images: CatalogImage[];
   }>;

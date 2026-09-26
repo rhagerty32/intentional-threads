@@ -5,8 +5,26 @@ const catalog = rawCatalog as CatalogFile;
 
 export const collections: Collection[] = catalog.collections;
 
+function optionAlt(defaultAlt: string, defaultName: string, optionName: string) {
+  if (optionName === defaultName) return defaultAlt;
+  const from = `in ${defaultName.toLowerCase()}`;
+  const to = `in ${optionName.toLowerCase()}`;
+  const index = defaultAlt.indexOf(from);
+  if (index === -1) return defaultAlt;
+  return defaultAlt.slice(0, index) + to + defaultAlt.slice(index + from.length);
+}
+
 export const products: Product[] = catalog.products.map((product) => {
-  const options = product.colors ?? product.variants ?? [];
+  const rawOptions = product.colors ?? product.variants ?? [];
+  const fallbackImage = product.images[0]?.file ?? "";
+  const fallbackAlt = product.images[0]?.alt ?? product.name;
+  const defaultName = rawOptions[0]?.name ?? "";
+  const options = rawOptions.map((option) => ({
+    name: option.name,
+    hex: option.hex,
+    image: option.image ?? fallbackImage,
+    imageAlt: optionAlt(fallbackAlt, defaultName, option.name),
+  }));
   return {
     slug: product.slug,
     name: product.name,

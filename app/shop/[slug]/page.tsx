@@ -6,6 +6,7 @@ import { JsonLd } from "@/components/json-ld";
 import { ProductCard } from "@/components/product-card";
 import { ProductGallery } from "@/components/product-gallery";
 import { ProductPurchase } from "@/components/product-purchase";
+import { ProductSelection } from "@/components/product-selection";
 import {
   getCollection,
   getProduct,
@@ -125,11 +126,12 @@ export default async function ProductPage({
           </ol>
         </nav>
 
-        <div className="mt-8 grid items-start gap-10 lg:grid-cols-12 lg:gap-16">
-          <div className="lg:col-span-7">
-            <ProductGallery key={product.slug} images={product.images} />
-          </div>
-          <div className="lg:col-span-5 lg:sticky lg:top-28 lg:self-start">
+        <ProductSelection key={product.slug} options={product.options}>
+          <div className="mt-8 grid items-start gap-10 lg:grid-cols-12 lg:gap-16">
+            <div className="lg:col-span-7">
+              <ProductGallery images={product.images} />
+            </div>
+            <div className="lg:col-span-5 lg:sticky lg:top-28 lg:self-start">
             {collection ? (
               <Link
                 href={`/collections/${collection.slug}`}
@@ -154,21 +156,19 @@ export default async function ProductPage({
             <p className="mt-4 font-serif text-3xl tabular-nums">{formatPrice(product.price)}</p>
             <p className="mt-6 max-w-prose text-[1.05rem] leading-relaxed">{product.description}</p>
             <ProductPurchase
-              key={product.slug}
               product={{
                 slug: product.slug,
                 name: product.name,
                 price: product.price,
-                image: product.images[0].file,
-                imageAlt: product.images[0].alt,
                 optionLabel: product.optionLabel,
                 options: product.options,
                 sizes: product.sizes,
               }}
             />
             <DetailsAccordion details={product.details} category={product.category} />
+            </div>
           </div>
-        </div>
+        </ProductSelection>
       </Container>
 
       {related.length > 0 && collection ? (
