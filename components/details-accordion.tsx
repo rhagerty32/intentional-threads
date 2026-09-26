@@ -1,5 +1,9 @@
+"use client";
+
 import type { ReactNode } from "react";
+import { useProductSelection } from "@/components/product-selection";
 import { careCopy, conceptNote } from "@/lib/copy";
+import { detailLine } from "@/lib/detail-lines";
 import type { Category } from "@/lib/types";
 
 function Item({
@@ -25,15 +29,22 @@ function Item({
 export function DetailsAccordion({
   details,
   category,
+  optionLabel,
+  optionNames,
 }: {
   details: string[];
   category: Category;
+  optionLabel: "Color" | "Metal";
+  optionNames: string[];
 }) {
+  const { color } = useProductSelection();
+  const lines = details.map((detail) => detailLine(detail, color, optionLabel, optionNames));
+
   return (
     <div className="mt-10 border-t border-ink/10">
       <Item title="Details" open>
         <ul className="space-y-2">
-          {details.map((detail) => (
+          {lines.map((detail) => (
             <li key={detail}>{detail}</li>
           ))}
         </ul>

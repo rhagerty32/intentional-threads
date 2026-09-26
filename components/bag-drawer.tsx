@@ -65,14 +65,14 @@ export function BagDrawer() {
                   <Link
                     href={`/shop/${line.slug}`}
                     onClick={closeBag}
-                    className="relative h-24 w-20 shrink-0 border border-ink/10 bg-bone"
+                    className="relative aspect-video w-28 shrink-0 self-start border border-ink/10 bg-bone"
                   >
                     <Image
                       src={`/images/${line.image}`}
                       alt={line.imageAlt}
                       fill
                       sizes="80px"
-                      className="object-contain p-1"
+                      className="object-cover object-center"
                     />
                   </Link>
                   <div className="min-w-0 flex-1">

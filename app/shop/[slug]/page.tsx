@@ -165,7 +165,12 @@ export default async function ProductPage({
                 sizes: product.sizes,
               }}
             />
-            <DetailsAccordion details={product.details} category={product.category} />
+            <DetailsAccordion
+              details={product.details}
+              category={product.category}
+              optionLabel={product.optionLabel}
+              optionNames={product.options.map((option) => option.name)}
+            />
             </div>
           </div>
         </ProductSelection>

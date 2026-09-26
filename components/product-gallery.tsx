@@ -53,7 +53,7 @@ export function ProductGallery({ images }: { images: CatalogImage[] }) {
 
   return (
     <div ref={rootRef}>
-      <div className="relative aspect-[4/5] border border-ink/10 bg-bone">
+      <div className="relative aspect-video border border-ink/10 bg-bone">
         {options.map((option) => (
           <FrameImage
             key={option.name}
@@ -61,7 +61,7 @@ export function ProductGallery({ images }: { images: CatalogImage[] }) {
             alt={option.imageAlt}
             visible={active === 0 && option.name === color}
             sizes="(min-width: 1024px) 55vw, 100vw"
-            className="object-contain p-4 sm:p-8"
+            className="object-cover object-center"
           />
         ))}
         {extras.map((image, index) => (
@@ -71,7 +71,7 @@ export function ProductGallery({ images }: { images: CatalogImage[] }) {
             alt={image.alt}
             visible={active === index + 1}
             sizes="(min-width: 1024px) 55vw, 100vw"
-            className="object-contain p-4 sm:p-8"
+            className="object-cover object-center"
           />
         ))}
       </div>
@@ -83,7 +83,7 @@ export function ProductGallery({ images }: { images: CatalogImage[] }) {
               aria-label={`Show image 1 of ${shots}`}
               aria-pressed={active === 0}
               onClick={() => setActive(0)}
-              className={`relative aspect-[4/5] w-16 border bg-bone sm:w-20 ${
+              className={`relative aspect-video w-24 border bg-bone sm:w-28 ${
                 active === 0 ? "border-ink" : "border-ink/15"
               }`}
             >
@@ -93,8 +93,8 @@ export function ProductGallery({ images }: { images: CatalogImage[] }) {
                   file={option.image}
                   alt=""
                   visible={option.name === color}
-                  sizes="80px"
-                  className="object-contain p-1"
+                  sizes="120px"
+                  className="object-cover object-center"
                 />
               ))}
             </button>
@@ -109,7 +109,7 @@ export function ProductGallery({ images }: { images: CatalogImage[] }) {
                   aria-label={`Show image ${shot + 1} of ${shots}`}
                   aria-pressed={selectedShot}
                   onClick={() => setActive(shot)}
-                  className={`relative aspect-[4/5] w-16 border bg-bone sm:w-20 ${
+                  className={`relative aspect-video w-24 border bg-bone sm:w-28 ${
                     selectedShot ? "border-ink" : "border-ink/15"
                   }`}
                 >
@@ -118,8 +118,8 @@ export function ProductGallery({ images }: { images: CatalogImage[] }) {
                     alt=""
                     fill
                     priority
-                    sizes="80px"
-                    className="object-contain p-1"
+                    sizes="120px"
+                    className="object-cover object-center"
                   />
                 </button>
               </li>
