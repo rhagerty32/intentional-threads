@@ -48,7 +48,7 @@ export default async function CollectionPage({
 
   return (
     <>
-      <div className="relative aspect-[4/3] max-h-[520px] w-full sm:aspect-[21/9]">
+      <div className="relative aspect-video max-h-[640px] w-full">
         <Image
           src={`/images/${collection.banner}`}
           alt={collection.bannerAlt}

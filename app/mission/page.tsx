@@ -31,7 +31,7 @@ export default function MissionPage() {
         <p className="mt-12 font-serif text-3xl italic">Made on purpose.</p>
       </Container>
 
-      <div className="relative aspect-[3/2] max-h-[720px] w-full">
+      <div className="relative aspect-video max-h-[720px] w-full">
         <Image
           src={`/images/${editorial.hands.file}`}
           alt={editorial.hands.alt}

@@ -48,7 +48,7 @@ export const editorial = {
   },
   walk: {
     file: "hero-morning-walk.jpg",
-    alt: "Two people in sweatshirts walking a quiet meadow path",
+    alt: "Two people in sweatshirts walking a meadow path at sunrise",
   },
   hands: {
     file: "mission-hands-journal.jpg",
