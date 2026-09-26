@@ -1,0 +1,426 @@
+{
+  "collections": [
+    {
+      "slug": "the-daily-practice",
+      "name": "The Daily Practice",
+      "tagline": "Small choices, made daily.",
+      "description": "Heavyweight sweatshirts, tees, and one everyday chain. The pieces for routines you actually keep.",
+      "banner": "collection-daily-practice.jpg",
+      "bannerAlt": "Folded sweatshirts in bone, oat, and espresso on a wooden bench with a notebook and a gold chain"
+    },
+    {
+      "slug": "north-star",
+      "name": "North Star",
+      "tagline": "Keep your direction close.",
+      "description": "Rings, pendants, and cuffs. A few words engraved where you can find them.",
+      "banner": "collection-north-star.jpg",
+      "bannerAlt": "Gold signet ring, compass pendant, and cuff arranged on stone and linen"
+    },
+    {
+      "slug": "first-light",
+      "name": "First Light",
+      "tagline": "Begin again, on purpose.",
+      "description": "A short run in Quiet Sage, cream, and gold. For a morning when you are starting something.",
+      "banner": "collection-first-light.jpg",
+      "bannerAlt": "Person in a sage crewneck by a window at dawn, wearing small gold hoops"
+    }
+  ],
+  "products": [
+    {
+      "slug": "on-purpose-crewneck",
+      "name": "On Purpose Crewneck",
+      "category": "apparel",
+      "collection": "the-daily-practice",
+      "price": 98,
+      "featured": true,
+      "description": "Heavyweight crewneck with \"on purpose\" embroidered small at the left cuff. Garment-dyed, so it feels worn in on day one. This is the sweatshirt I made first, for myself.",
+      "details": [
+        "450gsm organic cotton loopback fleece",
+        "Tonal \"on purpose\" embroidery at the left cuff",
+        "Garment-dyed in small batches",
+        "Relaxed fit, dropped shoulder. Size down for a closer fit",
+        "Ribbed cuffs, hem, and collar",
+        "Made in Portugal"
+      ],
+      "colors": [
+        { "name": "Bone", "hex": "#EDE6DA" },
+        { "name": "Oat", "hex": "#D9CBB4" },
+        { "name": "Espresso", "hex": "#3A2E27" }
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        {
+          "file": "on-purpose-crewneck.jpg",
+          "alt": "On Purpose Crewneck in bone, on a bone studio backdrop"
+        },
+        {
+          "file": "on-purpose-crewneck-detail.jpg",
+          "alt": "Close view of a bone sweatshirt cuff with small on purpose embroidery"
+        }
+      ]
+    },
+    {
+      "slug": "intentional-hoodie",
+      "name": "Intentional Hoodie",
+      "category": "apparel",
+      "collection": "the-daily-practice",
+      "price": 128,
+      "featured": true,
+      "description": "Heavyweight hoodie with a small serif \"intentional\" across the chest. Double-layer hood, flat drawcords, a plain kangaroo pocket. The one I wear on early mornings.",
+      "details": [
+        "480gsm organic cotton brushed fleece",
+        "Tonal serif \"intentional\" chest embroidery",
+        "Double-layer hood, flat cotton drawcords with matte metal tips",
+        "Relaxed fit, slightly cropped",
+        "Garment-dyed and pre-shrunk",
+        "Made in Portugal"
+      ],
+      "colors": [
+        { "name": "Oat", "hex": "#D9CBB4" },
+        { "name": "Espresso", "hex": "#3A2E27" },
+        { "name": "Stone Grey", "hex": "#A8A197" }
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        {
+          "file": "intentional-hoodie.jpg",
+          "alt": "Intentional Hoodie in oat, on a bone studio backdrop"
+        },
+        {
+          "file": "intentional-hoodie-on-body.jpg",
+          "alt": "Person wearing the oat Intentional Hoodie, hands in the pocket"
+        }
+      ]
+    },
+    {
+      "slug": "monogram-crewneck",
+      "name": "IT Monogram Crewneck",
+      "category": "apparel",
+      "collection": "the-daily-practice",
+      "price": 92,
+      "description": "Midweight crewneck with a tiny italic \"IT\" at the chest. Regular fit. Fine under a coat, or on its own.",
+      "details": [
+        "380gsm organic cotton French terry",
+        "Small italic IT monogram embroidery",
+        "Regular fit, true to size",
+        "Side seams, so the front stays clean",
+        "Made in Portugal"
+      ],
+      "colors": [
+        { "name": "Espresso", "hex": "#3A2E27" },
+        { "name": "Bone", "hex": "#EDE6DA" }
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        {
+          "file": "monogram-crewneck.jpg",
+          "alt": "IT Monogram Crewneck in espresso, on a bone studio backdrop"
+        }
+      ]
+    },
+    {
+      "slug": "daily-practice-tee",
+      "name": "Daily Practice Tee",
+      "category": "apparel",
+      "collection": "the-daily-practice",
+      "price": 48,
+      "description": "Boxy tee in dense organic jersey. \"daily practice\" is printed small at the back neck. It keeps its shape after washing.",
+      "details": [
+        "240gsm organic cotton jersey",
+        "Water-based \"daily practice\" print at the back neck",
+        "Boxy fit, slightly dropped shoulder",
+        "Reinforced collar",
+        "Made in Portugal"
+      ],
+      "colors": [
+        { "name": "Bone", "hex": "#EDE6DA" },
+        { "name": "Espresso", "hex": "#3A2E27" }
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        {
+          "file": "daily-practice-tee.jpg",
+          "alt": "Daily Practice Tee in bone, on a bone studio backdrop"
+        }
+      ]
+    },
+    {
+      "slug": "first-light-crewneck",
+      "name": "First Light Crewneck",
+      "category": "apparel",
+      "collection": "first-light",
+      "price": 105,
+      "featured": true,
+      "note": "300 made",
+      "description": "Limited crewneck in garment-dyed Quiet Sage, with \"begin again\" stitched in cream along the hem. We made 300. The dye varies a little from piece to piece.",
+      "details": [
+        "450gsm organic cotton loopback fleece",
+        "Cream \"begin again\" embroidery at the front hem",
+        "Garment-dyed Quiet Sage. Each piece varies slightly",
+        "Relaxed fit, dropped shoulder",
+        "Limited run of 300",
+        "Made in Portugal"
+      ],
+      "colors": [{ "name": "Quiet Sage", "hex": "#8A9A84" }],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        {
+          "file": "first-light-crewneck.jpg",
+          "alt": "First Light Crewneck in quiet sage, on a bone studio backdrop"
+        },
+        {
+          "file": "first-light-crewneck-on-body.jpg",
+          "alt": "Person in the sage First Light Crewneck, holding a mug"
+        }
+      ]
+    },
+    {
+      "slug": "slow-morning-zip-hoodie",
+      "name": "Slow Morning Zip Hoodie",
+      "category": "apparel",
+      "collection": "first-light",
+      "price": 135,
+      "description": "Full-zip hoodie in oat, with a brushed-brass zip and a small sage \"slow mornings\" at the chest. Relaxed fit, true to size.",
+      "details": [
+        "440gsm organic cotton brushed fleece",
+        "Brushed-brass two-way zip",
+        "Small sage \"slow mornings\" chest embroidery",
+        "Relaxed fit, true to size",
+        "Made in Portugal"
+      ],
+      "colors": [{ "name": "Oat", "hex": "#D9CBB4" }],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        {
+          "file": "slow-morning-zip-hoodie.jpg",
+          "alt": "Slow Morning Zip Hoodie in oat, on a bone studio backdrop"
+        }
+      ]
+    },
+    {
+      "slug": "decide-tee",
+      "name": "Decide Tee",
+      "category": "apparel",
+      "collection": "first-light",
+      "price": 52,
+      "description": "Cream tee with one word on the chest: \"decide.\" Printed in sage. The simplest thing in the shop.",
+      "details": [
+        "220gsm organic cotton jersey",
+        "Sage water-based \"decide.\" chest print",
+        "Relaxed fit",
+        "Garment-washed",
+        "Made in Portugal"
+      ],
+      "colors": [{ "name": "Cream", "hex": "#F1EADF" }],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "images": [
+        {
+          "file": "decide-tee.jpg",
+          "alt": "Decide Tee in cream, on a bone studio backdrop"
+        }
+      ]
+    },
+    {
+      "slug": "north-star-signet-ring",
+      "name": "North Star Signet Ring",
+      "category": "jewelry",
+      "collection": "north-star",
+      "price": 165,
+      "featured": true,
+      "description": "A rounded signet with a small four-point star on the face. \"on purpose\" is hand-engraved inside the band. The face is a 9mm oval. Made to wear every day.",
+      "details": [
+        "14k gold vermeil over recycled sterling silver",
+        "Hand-engraved star on the face. \"on purpose\" inside the band",
+        "Face is a 9mm oval. The band tapers to 2mm",
+        "US sizes 4 to 11. Half sizes are available",
+        "Inside-band personalization is free, up to 20 characters"
+      ],
+      "variants": [
+        { "name": "Gold Vermeil", "hex": "#C9A96E" },
+        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+      ],
+      "sizes": ["4", "5", "6", "7", "8", "9", "10", "11"],
+      "images": [
+        {
+          "file": "north-star-signet-ring.jpg",
+          "alt": "North Star Signet Ring in gold vermeil, on a bone studio backdrop"
+        },
+        {
+          "file": "north-star-signet-ring-on-hand.jpg",
+          "alt": "Gold signet ring with a small star, worn on a hand"
+        }
+      ]
+    },
+    {
+      "slug": "compass-pendant-necklace",
+      "name": "Compass Pendant Necklace",
+      "category": "jewelry",
+      "collection": "north-star",
+      "price": 148,
+      "featured": true,
+      "description": "A small round medallion with a compass star, on a fine cable chain. The back is left blank for a word, a goal, or a date.",
+      "details": [
+        "14k gold vermeil over recycled sterling silver",
+        "14mm medallion, engraved compass star",
+        "Adjustable cable chain, 16 to 18 in",
+        "Optional back engraving, up to 12 characters",
+        "Lobster clasp"
+      ],
+      "variants": [
+        { "name": "Gold Vermeil", "hex": "#C9A96E" },
+        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+      ],
+      "images": [
+        {
+          "file": "compass-pendant-necklace.jpg",
+          "alt": "Compass Pendant Necklace in gold vermeil, on a bone studio backdrop"
+        },
+        {
+          "file": "compass-pendant-necklace-on-body.jpg",
+          "alt": "Gold compass pendant on a fine chain, worn at the collarbone"
+        }
+      ]
+    },
+    {
+      "slug": "on-purpose-bar-necklace",
+      "name": "On Purpose Bar Necklace",
+      "category": "jewelry",
+      "collection": "north-star",
+      "price": 135,
+      "description": "A slim bar engraved with \"on purpose\" in small serif capitals. It sits at the collarbone. The bar is 30mm by 5mm.",
+      "details": [
+        "14k gold vermeil over recycled sterling silver",
+        "30mm by 5mm bar, hand-finished edges",
+        "Fine serif engraving",
+        "Adjustable cable chain, 16 to 18 in"
+      ],
+      "variants": [
+        { "name": "Gold Vermeil", "hex": "#C9A96E" },
+        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+      ],
+      "images": [
+        {
+          "file": "on-purpose-bar-necklace.jpg",
+          "alt": "On Purpose Bar Necklace in gold vermeil, on a bone studio backdrop"
+        }
+      ]
+    },
+    {
+      "slug": "thread-knot-ring",
+      "name": "Thread Knot Ring",
+      "category": "jewelry",
+      "collection": "north-star",
+      "price": 88,
+      "description": "A thin band that loops into one small knot. 1.5mm wide. Wear one, or stack a few.",
+      "details": [
+        "Recycled sterling silver or 14k gold vermeil",
+        "1.5mm band with a sculpted knot",
+        "Comfort-fit interior",
+        "US sizes 4 to 11"
+      ],
+      "variants": [
+        { "name": "Gold Vermeil", "hex": "#C9A96E" },
+        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+      ],
+      "sizes": ["4", "5", "6", "7", "8", "9", "10", "11"],
+      "images": [
+        {
+          "file": "thread-knot-ring.jpg",
+          "alt": "Thread Knot Ring in gold vermeil, on a bone studio backdrop"
+        }
+      ]
+    },
+    {
+      "slug": "promise-cuff",
+      "name": "Promise Cuff",
+      "category": "jewelry",
+      "collection": "north-star",
+      "price": 155,
+      "description": "An open cuff, softly hammered, with \"keep the promise.\" engraved on the inside. 6mm wide. It bends to fit the wrist.",
+      "details": [
+        "Recycled solid sterling silver or 14k gold vermeil",
+        "6mm wide, hand-hammered",
+        "\"keep the promise.\" engraved inside",
+        "Open design, fits most wrists from 6 to 7.5 in"
+      ],
+      "variants": [
+        { "name": "Gold Vermeil", "hex": "#C9A96E" },
+        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+      ],
+      "images": [
+        {
+          "file": "promise-cuff.jpg",
+          "alt": "Promise Cuff in gold vermeil, on a bone studio backdrop"
+        }
+      ]
+    },
+    {
+      "slug": "intention-chain-bracelet",
+      "name": "Intention Chain Bracelet",
+      "category": "jewelry",
+      "collection": "the-daily-practice",
+      "price": 118,
+      "description": "A fine paperclip chain with a small tag stamped with a thread-line mark. It adjusts from 6 to 7.5 inches and sits well next to the Promise Cuff.",
+      "details": [
+        "14k gold vermeil over recycled sterling silver",
+        "Paperclip chain, 2.5mm",
+        "Small tag with a stamped thread-line mark",
+        "Adjustable 6 to 7.5 in, lobster clasp"
+      ],
+      "variants": [
+        { "name": "Gold Vermeil", "hex": "#C9A96E" },
+        { "name": "Sterling Silver", "hex": "#C8C8C4" }
+      ],
+      "images": [
+        {
+          "file": "intention-chain-bracelet.jpg",
+          "alt": "Intention Chain Bracelet in gold vermeil, on a bone studio backdrop"
+        }
+      ]
+    },
+    {
+      "slug": "first-light-hoops",
+      "name": "First Light Hoops",
+      "category": "jewelry",
+      "collection": "first-light",
+      "price": 95,
+      "description": "Small hoops with a slight twist, 18mm across, with a hinged snap. Light enough to wear all day.",
+      "details": [
+        "14k gold vermeil over recycled sterling silver",
+        "18mm diameter, 3mm twisted tube",
+        "Hinged snap closure",
+        "Hypoallergenic and nickel-free",
+        "Sold as a pair"
+      ],
+      "variants": [{ "name": "Gold Vermeil", "hex": "#C9A96E" }],
+      "images": [
+        {
+          "file": "first-light-hoops.jpg",
+          "alt": "First Light Hoops in gold vermeil, on a bone studio backdrop"
+        }
+      ]
+    },
+    {
+      "slug": "threadline-studs",
+      "name": "Threadline Studs",
+      "category": "jewelry",
+      "collection": "first-light",
+      "price": 68,
+      "description": "Studs shaped like one short stitch. 8mm, with solid gold posts. Small enough that you forget they are in.",
+      "details": [
+        "14k solid gold posts, gold vermeil fronts",
+        "8mm stitch-line design",
+        "Butterfly backs",
+        "Hypoallergenic and nickel-free",
+        "Sold as a pair"
+      ],
+      "variants": [{ "name": "Gold Vermeil", "hex": "#C9A96E" }],
+      "images": [
+        {
+          "file": "threadline-studs.jpg",
+          "alt": "Threadline Studs in gold vermeil, on a bone studio backdrop"
+        }
+      ]
+    }
+  ]
+}
