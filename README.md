@@ -1,8 +1,8 @@
 # Intentional Threads
 
-A concept shop for a fictional brand. Sweatshirts, hoodies, tees, and a short jewelry line. The tagline is "Made on purpose." Nothing on the site is for sale, and the story is invented.
+The website for Intentional Threads, a small brand making sweatshirts and jewelry. Tagline: Made on purpose. This is an early version, so checkout is not connected yet.
 
-It runs on Next.js (App Router) and TypeScript, with Tailwind CSS. The pages are static. The bag stays in the browser. There is no payment system.
+It runs on Next.js (App Router) and TypeScript, with Tailwind CSS. The pages are static. The bag stays in the browser. Checkout is not wired up yet.
 
 ## Run locally
 

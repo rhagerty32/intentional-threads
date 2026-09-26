@@ -39,7 +39,7 @@ export const careCopy = {
 };
 
 export const conceptNote =
-  "This is a concept store. Nothing is charged and nothing ships.";
+  "Early preview. Checkout is not open yet. Nothing is charged, and nothing ships.";
 
 export const editorial = {
   hero: {
@@ -100,5 +100,4 @@ export const homeCopy = {
   newsletterFine: "Unsubscribe anytime. We send one email a week.",
 };
 
-export const footerNote =
-  "A concept store. Nothing here is for sale. The products and the stories are fictional.";
+export const footerNote = "Early preview. Checkout is not open yet.";

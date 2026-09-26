@@ -132,7 +132,7 @@ export function BagDrawer() {
                 <p className="font-serif text-3xl tabular-nums">{formatPrice(subtotal)}</p>
               </div>
               <p className="mt-3 text-sm text-muted">
-                This is a concept store. Nothing is charged and nothing ships.
+                Early preview. Checkout is not open yet. Nothing is charged, and nothing ships.
               </p>
               <button
                 type="button"
